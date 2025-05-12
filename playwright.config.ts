@@ -40,7 +40,7 @@ export default defineConfig({
       use: { 
         headless: true,
         screenshot: 'on',
-        video: 'retain-on-failure',
+        video: 'off',
         trace: 'retain-on-failure',
         ...devices['Desktop Chrome'] 
       },
